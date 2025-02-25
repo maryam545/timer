@@ -1,7 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.main {
+  height: 100px;
+  width: 500px;
+  background: #c5f8e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
 .timerDisplay {
   font-size: 50px;
+}
+.start {
+  background: #86ffcd;
 }
